@@ -3,9 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Capstone 1</title>
-
-
+	<title>Capstone</title>
 
 
 	<!-- Bootstrap Dependencies -->
@@ -14,52 +12,72 @@
 
 	<!-- external -->
 	<link rel="stylesheet" type="text/css" href="./index.css">
+
+
+	<!-- font family -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+	<!-- kit code -->
+	<script src="https://kit.fontawesome.com/a9bdbcbf6c.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<div class="container-fluid">
-	<div class="row justify-content-left flex-column align-items-left text-white">
-		<div class="col">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">About Me</a>
-		      </li>
-
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Skills</a>
-		      </li>
-		      
-		    </ul>
-		    
-		  </div>
-		</nav>
-		</div>
-	</div>
-</div>
-
-
+<img src="https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/zuittlogo.png">
 <div class="container-fluid" >
-		<!-- jumbotron - used to attract/catch more attention from the users/readers -->
-		<div class="row jumbotron justify-content-center my-3 flex-column align-items-center text-white" id="banner">
+		
+		<div class="row justify-content-center flex-column align-items-center text-white" id="banner">
 
-			<div class="col-10 col-md-2">
-				<img src="./images/profile.jpg" class="img-fluid rounded-circle border border-dark">
+			<div class="col text-white my-3 justify-content-end align-items-end" id="nav-bar">
+
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<!-- <img src="https://scontent.fmnl4-1.fna.fbcdn.net/v/t1.6435-9/64381523_1209829672528715_269398997553119232_n.png?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeE6mIFvPxaCEScnxW7uln1SHoiiiMkugzseiKKIyS6DO4Ove4MTzy01bR4y1Z-NBN3wEQFU57D3sI5XX57zOpSU&_nc_ohc=hClWN1ujwIoAX_STfNn&_nc_ht=scontent.fmnl4-1.fna&oh=00_AT8NhLoV6ENQE_wayMlC7JyYCD9J3sMfHtKBy9DiWH1skg&oe=625FE168"> -->
+				  <!-- <a class="navbar-brand text-white" href="#">Zuitt</a> -->
+				  
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active col">
+				        <a class="nav-link text-white" href="#home">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item active col">
+				        <a class="nav-link text-white" href="#aboutme">About</a>
+				      </li>
+
+
+				      <li class="nav-item active col">
+				        <a class="nav-link text-white" href="#contactme">Contact</a>
+				      </li>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+				    </form>
+				  </div>
+				</nav>
+			</div>
+
+			<div class="col-8 col-md-2" id="home">
+				<img src="./images/me.jpg" class="img-fluid rounded-circle border border-white">
 			</div>
 			<h1 class="my-2 text-center">Mark Lorenz I Espiritu</h1>
-			<h4 class="my-2 text text-center">Future Full Stack Web Developer</h4>
+
+			<div class="d-flex justify-content-center mx-2">
+				<i class="fa-brands fa-facebook-f text-white justify-content-center text-center mx-2"></i>
+				<i class="fa-brands fa-instagram text-white justify-content-center text-center mx-2"></i>
+				<i class="fa-brands fa-linkedin text-white justify-content-center text-center mx-2"></i>
+			</div>
+
+			<h4 class="my-2 text text-center">Zuitt Bootcamper | Future Full Stack Web Developer</h4>
 			<div class="col-md-8">
-				<p class="text-justify my-2">
-					I came from the province of Marinduque, known for its Moriones Festival. The "Moriones" are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals. The Moriones tradition has inspired the creation of other festivals in the Philippines where cultural practices is turned into street festivals
+				<p class="text-justify text-center mt-3 mb-5">
+					I came from the province of Marinduque, known for its Moriones Festival (the "Moriones" are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals) 
 				</p>
 				
 			</div>
@@ -68,25 +86,159 @@
 
 
 
+	<div class="container mt-5">
+	<section id="aboutme">
+	<h3 class="text-center">About Me</h3>
+		<div class="row">
+			<div class="col-md-6 my-auto text-justify order-2 order-md-1 p-5">
+				<h4 class="text-center">A Firefighter</h4>
+			I am currently connected in the BUREAU OF FIRE PROTECTION for 8 years and presently assigned in the BFP MIMAROPA Regional Headquarters located at Brgy. Sta. Rita, Pinamalayan, Oriental Mindoro, designated as Video Editor and Admin staff. </div>
+
+			<div class="col-md-6 order-1 order-md-2 p-3">
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active" id="imgcarousel">
+				      <img src="./images/rhq.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item" id="imgcarousel">
+				      <img src="./images/fsed.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item" id="imgcarousel">
+				      <img src="./images/rhq2.jpg" class="d-block w-100" alt="...">
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </button>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-6 my-auto text-justify order-2 order-md-1 order-lg-2 p-5">
+				<h4 class="text-center">My Hometown</h4>
+			Marinduque is an island province in the Philippines located in Southwestern Tagalog Region or Mimaropa, formerly designated as Region IV-B. Its capital is the municipality of Boac. Marinduque lies between Tayabas Bay to the north and Sibuyan Sea to the south.</div>
+
+			<div class="col-md-6 order-1 order-md-2 order-lg-1 p-3">
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active" id="imghome">
+				      <img src="./images/morion.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item" id="imghome">
+				      <img src="./images/maniwaya.jpg" class="d-block w-100" alt="...">
+				    </div>
+				    <div class="carousel-item" id="imghome">
+				      <img src="./images/balanacan.jpg" class="d-block w-100" alt="...">
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </button>
+				</div>
+			</div>
+		</div>
+
+	</section>
+</div>
+
+
+<hr>
+
+<section>
+	<h3 class="text-center text-dark mt-5">Contact Me</h3>
+	<div class="container-fluid" id="contactme" >
+			<div class="row jumbotron justify-content-center my-3 flex-column align-items-center text-white" id="cforms">
+					
+				<div class="col col-md-8 col-xl-4 bg-dark">
+					<form>
+					  <div class="form-group text-center mt-3">
+					  	<label for="exampleFormControlInput2">Name</label>
+					    <input type="textbox" class="form-control" id="exampleFormControlInput2">
+					  </div>
+
+					  <div class="form-group text-center">
+					    <label for="exampleFormControlInput1">Email address</label>
+					    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+					  </div>
+					  <div class="form-group text-center">
+					  	<label for="exampleFormControlInput2">Contact Number</label>
+					    <input type="number" min="1" class="form-control" id="exampleFormControlInput2">
+					  </div>
+
+
+					  <div class="form-group text-center">
+					    <label for="exampleFormControlTextarea1">Message</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					  </div>
+
+					  <div class="form-group justify-content-center d-flex align-items-center ">
+					  	 <!-- Button trigger modal -->
+							<button type="button" class="btn btn-warning btn-outline-dark" data-toggle="modal" data-target="#exampleModal">
+							  Send Email
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title text-dark" id="exampleModalLabel">Send Email Modal</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body text-dark">
+							        Welcome to my Profile
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+					  </div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+</section>
+
+<div class="d-flex justify-content-center mx-2">
+	<i class="fa-solid fa-circle-chevron-up"></i>
+</div>
+		
+
+
+<!-- Footer -->
+	<footer class="p-3 bg-dark mt-5">
+	    <p class="text-center text-white"> 
+	        &copy;All Rights Reserved 2022
+	    </p>
+	    <div class="d-flex justify-content-center mx-2">
+	    	<i class="fa-brands fa-facebook-f text-white justify-content-center text-center mx-2"> Facebook</i>
+	    	<i class="fa-brands fa-instagram text-white justify-content-center text-center mx-2">  Instagram</i>
+	    	<i class="fa-brands fa-linkedin text-white justify-content-center text-center mx-2">  Linked In</i>
+	    	<i class="fa-solid fa-square-arrow-up"></i>
+	    </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	</footer>
 
 
 
